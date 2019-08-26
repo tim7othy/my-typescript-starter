@@ -13,3 +13,5 @@ class Dog implements IAnimal {
 }
 
 let d = new Dog("D", 12);
+console.log("name: " + d.name);
+console.log("age: " + d.age);
