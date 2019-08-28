@@ -6,6 +6,9 @@
   ],
   "exclude": [
     "node_modules"
+	"build",
+    "**/*.spec.ts",
+    "dist/**/*"
   ],
   "compilerOptions": {
     /* Basic Options */
